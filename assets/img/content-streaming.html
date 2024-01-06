@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IMS - Content streaming</title>
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Standard -->
+	<link rel="shortcut icon" href="assets/img/ficon.png">
+	<!-- Latest Bootstrap min CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<!-- Dropdownhover CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap-dropdownhover.min.css" type="text/css">
+	<!-- latest fonts awesome -->
+	<link rel="stylesheet" href="assets/font/css/font-awesome.min.css" type="text/css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<!--  baguetteBox -->
+	<link rel="stylesheet" href="assets/css/baguetteBox.css">
+	<!-- Owl Carousel Assets -->
+	<link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="assets/owl-carousel/owl.theme.css" rel="stylesheet">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		.inline-page-title::before, .inline-page-title::after {
+			width: calc((100% - 320px) / 2 - 20px) !important;
+		}
+	</style>
+</head>
+<body class="innerpage">
+<!--  Preloader  -->
+<div id="preloader">
+	<div id="loading">
+	</div>
+</div>
+<!--  nav  -->
+
+<nav id="mainNav" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+
+</nav>
+<!-- START HEARDER SECTION -->
+<header id="home" class="header">
+	<div id="page-element-wrap" class="fill-image" style='background-image: url(assets/img/content-streaming.jpg); background-size: cover; background-position: center;'>
+		<!-- #page-element-wrap -->
+		<div class="container page-title-container">
+			<div class="page-title-content">
+				<div class="page-title-text">
+					<div id="breadcrumb-text" class="zo-page-title-secondary-above breadcrumb-text">
+						<ul class="breadcrumbs">
+							<li><a href="#">Home</a></li>
+							<li>Services</li>
+							<li>Content Streaming</li>
+						</ul>
+					</div>
+					<div class="inline-page-title border-top ">
+						<h1 style='background-color: rgba(0,0,0,0.25)'>&nbsp; Content Streaming &nbsp;</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /#page-element-wrap -->
+	</div>
+</header>
+
+<!-- START SERVCIE SECTION -->
+<section class="section-padding Service">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+
+					<h2>
+						CONTENT STREAMING TO MOBILE &
+						OVER- THE- TOP(OTT)
+					</h2>
+					<p>
+						Today’s mobile market is exploding! Streaming media hosting provides breakthrough levels
+						of quality and service for live and on-demand media streaming to the i-phone, i-pad, iPod
+						Touch, Android and all other smart devices.
+					</p>
+					<p>
+						Content streaming to mobiles have significantly enhanced global, commercial & cultural
+						connection . This have contributed in carrying the content like music, games, movies, Live
+						TV anywhere, anytime!
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-padding welcome bg-sections">
+	<div class="container">
+		<img src="assets/img/ott.png" alt="" style='width: 100%; '>
+		<!--<div id='vmap' style='width: 100%; height: 600px; '></div>-->
+	</div>
+</section>
+
+<!-- START TEAM SECTION -->
+<!-- START FOOTER SECTION -->
+<footer>
+	<div class="container">
+
+	</div>
+</footer>
+<!-- jQuery -->
+<script src="assets/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-dropdownhover.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<!--  Custom Theme JavaScript  -->
+<script src="assets/js/custom.js"></script>
+<!-- owl carousel -->
+<script src="assets/owl-carousel/owl.carousel.js"></script>
+
+
+<link href="assets/map/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="assets/map/jquery.vmap.min.js"></script>
+<script type="text/javascript" src="assets/map/jquery.vmap.world.js" charset="utf-8"></script>
+<script type="text/javascript" src="assets/map/ott.js"></script>
+
+<script>
+	jQuery(document).ready(function () {
+		jQuery('#vmap').vectorMap({
+			map: 'world_en',
+			backgroundColor: 'transparent',
+			color: '#ffffff',
+			hoverOpacity: 0.7,
+			selectedColor: '#666666',
+			enableZoom: true,
+			showTooltip: true,
+			scaleColors: ['#C8EEFF', '#006491'],
+			values: sample_data,
+			normalizeFunction: 'polynomial'
+		});
+	});
+</script>
+
+
+</body>
+</html>
+
+
